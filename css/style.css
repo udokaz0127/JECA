@@ -582,7 +582,7 @@ a {
 @media screen and (min-width: 960px) {
 	.btn_green:hover {
 		color: #fff;
-		background: #8fc31f;
+		background: linear-gradient(to bottom, #3ca7af 0%, #63c0c8 100%);
 		opacity: 1 !important;
 	}
 	.btn_green:hover .ic-key {
@@ -1947,93 +1947,110 @@ h3 {
 /* day1 */
 .tabs-btn li.day1 {
 	background-color: #eaf5fd;
-	border-bottom: 2px solid #489ee3;
+	border-bottom: 2px solid #3fa9b1;
 }
 .tabs-btn li.is-select.day1 {
-	background-color: #489ee3;
+	background-color: #3fa9b1;
 }
 .tabs-item.day1 .timetable_info {
-	background-color: #489ee3;
+	background-color: #3fa9b1;
 }
 .day1 .timetable__cont .item__title {
-	color: #489ee3;
+	color: #3fa9b1;
 }
 .day1 .timetable__cont .item__cont {
-	border-left: 2px solid #489ee3;
+	border-left: 2px solid #3fa9b1;
 }
 .day1 .timetable__contact {
 	background-color: #eaf5fd;
 }
 .day1 .timetable__contact dt {
-	color: #489ee3;
+	color: #3fa9b1;
 }
 .day1 .timetable__contact dd {
-	border-left: 2px solid #489ee3;
+	border-left: 2px solid #3fa9b1;
 }
+/*  */
+.day1 .c-timetable_time {
+	background-color: #3fa9b1;
+}
+
 /* day2 */
 .tabs-btn li.day2 {
 	background-color: #f8e6f0;
-	border-bottom: 2px solid #88345e;
+	border-bottom: 2px solid #f39800;
 }
 .tabs-btn li.is-select.day2 {
-	background-color: #88345e;
+	background-color: #f39800;
 }
 .tabs-item.day2 .timetable_info {
-	background-color: #88345e;
+	background-color: #f39800;
 }
 .day2 .timetable__cont .item__title {
-	color: #88345e;
+	color: #f39800;
 }
 .day2 .timetable__cont .item__cont {
-	border-left: 2px solid #88345e;
+	border-left: 2px solid #f39800;
 }
 .day2 .timetable__contact {
-	background-color: #f8e6f0;
+	background-color: #ffeed2;
 }
 .day2 .timetable__contact dt {
-	color: #88345e;
+	color: #f39800;
 }
 .day2 .timetable__contact dd {
-	border-left: 2px solid #88345e;
+	border-left: 2px solid #f39800;
 }
+/*  */
+.day2 .c-timetable_contact dt {
+	color: #f39800;
+}
+
 /* day3 */
 .tabs-btn li.day3 {
 	background-color: #cad4c4;
-	border-bottom: 2px solid #2c673a;
+	border-bottom: 2px solid #4e93e9;
 }
 .tabs-btn li.is-select.day3 {
-	background-color: #2c673a;
+	background-color: #4e93e9;
 }
 .tabs-item.day3 .timetable_info {
-	background-color: #2c673a;
+	background-color: #4e93e9;
 }
 .day3 .timetable__cont .item__title {
-	color: #2c673a;
+	color: #4e93e9;
 }
 .day3 .timetable__cont .item__cont {
-	border-left: 2px solid #2c673a;
+	border-left: 2px solid #4e93e9;
 }
 .day3 .timetable__contact {
-	background-color: #cad4c4;
+	background-color: #ececec;
 }
 .day3 .timetable__contact dt {
-	color: #2c673a;
+	color: #4e93e9;
 }
 .day3 .timetable__contact dd {
-	border-left: 2px solid #2c673a;
+	border-left: 2px solid #4e93e9;
+}
+/*  */
+.day3 .c-timetable_time {
+	background-color: #4e93e9;
+}
+.day3 .c-timetable_contact dt {
+	color: #4e93e9;
 }
 @media screen and (max-width: 767px) {
 	.day1 .timetable__contact dd {
 		border-left: none;
-		border-top: 2px solid #489ee3;
+		border-top: 2px solid #3fa9b1;
 	}
 	.day2 .timetable__contact dd {
 		border-left: none;
-		border-top: 2px solid #88345e;
+		border-top: 2px solid #f39800;
 	}
 	.day3 .timetable__contact dd {
 		border-left: none;
-		border-top: 2px solid #2c673a;
+		border-top: 2px solid #4e93e9;
 	}
 }
 
@@ -3533,10 +3550,6 @@ i.play {
 	border-top: 1px solid #d6d2cc;
 	width: 100%;
 	margin-top: 35px;
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
 }
 .news .news_list .news_item {
 	border-bottom: 1px solid #d6d2cc;
@@ -4154,6 +4167,7 @@ body.page_parts {
 
 .tb_table .tb_block th {
 	background: #f39800;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 700;
 	vertical-align: middle;
@@ -4245,7 +4259,7 @@ body.page_parts {
 	background: #fff;
 	border-radius: 14px;
 	overflow: hidden;
-	border: 1px solid #d8e0dc;
+	border: 1px solid #ececec;
 	margin-bottom: 79px;
 }
 
@@ -4255,7 +4269,7 @@ body.page_parts {
 }
 
 .tb_tablemap .tb_block tr {
-	border-bottom: 1px solid #d8e0dc;
+	border-bottom: 1px solid #ececec;
 }
 
 .tb_tablemap .tb_block tr:last-child {
@@ -4263,7 +4277,7 @@ body.page_parts {
 }
 
 .tb_tablemap .tb_block tr:nth-child(even) {
-	background: #f1f1f1;
+	background: #ececec;
 }
 
 .tb_tablemap .tb_block tr:nth-child(even) th,
@@ -4316,6 +4330,9 @@ body.page_parts {
 .c-timetable {
 	display: flex;
 	margin-bottom: 71px;
+}
+.tabs_content .c-timetable {
+	margin-top: 10px;
 }
 
 .c-timetable_info {
@@ -4552,7 +4569,7 @@ body.page_parts {
 	font-size: 17px;
 	font-weight: 700;
 	letter-spacing: 0.1em;
-	color: #1e1e1e;
+	color: #fff;
 }
 
 /*---------------2column---------------*/
@@ -4781,6 +4798,12 @@ body.page_parts {
 	transition: all 0.2s ease;
 	z-index: 1;
 }
+.c-tabs .tabs .line.day1 {
+	background: #f39800;
+}
+.c-tabs .tabs .line.day2 {
+	background: #4e93e9;
+}
 
 .c-tabs .tabs_item {
 	width: calc(100% / 3);
@@ -4793,9 +4816,9 @@ body.page_parts {
 	transition: all 0.5s ease;
 }
 
-.c-tabs .tabs_item.active {
+/* .c-tabs .tabs_item.active {
 	color: #3fa9b1;
-}
+} */
 
 .c-tabs .tabs_pane {
 	display: none;
@@ -4998,6 +5021,12 @@ body.page_parts {
 
 	.c-tabs .tabs_item:hover {
 		color: #3fa9b1;
+	}
+	.c-tabs .tabs_item.day2:hover {
+		color: #f39800;
+	}
+	.c-tabs .tabs_item.day3:hover {
+		color: #4e93e9;
 	}
 }
 
